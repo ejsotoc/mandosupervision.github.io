@@ -1,0 +1,76 @@
+:root {
+  --color-blue-medium: #8fe2e4;
+  --color-purple: #632ce7;
+  --color-gray: #ccc;
+  --color-gray-medium: #f8f9fa;
+  --color-yellow: #fac32c;
+  --color-blue:rgba(0, 77, 93);
+}
+
+/* estilos generales */
+
+a {
+  color: inherit;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  
+}
+
+/* SECCIONES */
+
+/* NAV */
+
+.navbar-brand > img {
+  width: 70px;
+}
+
+
+
+.navbar-main .active {
+  text-decoration: underline var(--color-yellow);
+  text-underline-offset: 9px;
+}
+
+.header-main {
+  min-height: 100vh;
+}
+
+.textlite {
+  min-height: 50vh;
+  font-size: 30px;
+}
+
+.peque {
+  min-width: 0, 5px;
+  width: 30px;
+}
+
+.textto {
+  
+  font-size: 9px;
+}
+
+/* */
+.xxx{
+  justify-content: space-between;
+}
+
+
+
+/* .media {
+  min-height:;
+} */
+
+/* Quienes Somos Imagenes */
+
+.icon-service {
+  --box-size: 200px;
+  width: var(--box-size);
+  height: var(--box-size);
+  padding: 10px;
+}
+
+/* footer */
+
